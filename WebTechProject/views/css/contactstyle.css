@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+    text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	background: #ffffff;
+}
+
+.wrapper{
+	display: flex;
+	position: relative;
+}
+.wrapper .main_content{
+	width: 100%;
+    text-align: center;
+	margin-left: 200px;
+	
+}
+.wrapper .main_content .header h2{
+	padding: 20px;
+	background: #dfe4ea;
+	color:#130f40;
+	border-bottom: 1px solid #e0e4e8;
+}
+.wrapper .main_content .btn1 button{
+	background: #1abc9c;
+	color: #ffffff;
+	width: 210px;
+	height: 50px;
+	border: 1px solid #338033;
+	font-size: 18px;
+	border-radius: 4px;
+	transition: .6s;
+	overflow: hidden;
+	
+}
+.wrapper .main_content .btn1 button:focus{
+       outline: none;
+}
+
+.wrapper .main_content .btn1 button:hover{
+	background: #16a085;
+	cursor: pointer;
+}
+.wrapper .main_content .btn2 button{
+	background: #487eb0;
+	color: #ffffff;
+	width: 210px;
+	height: 50px;
+	border: 1px solid #338033;
+	font-size: 18px;
+	border-radius: 4px;
+	transition: .6s;
+	overflow: hidden;
+	
+}
+.wrapper .main_content .btn2 button:focus{
+       outline: none;
+}
+
+.wrapper .main_content .btn2 button:hover{
+	background: #40739e;
+	cursor: pointer;
+}
+.wrapper .main_content .btn3 button{
+	background: #778ca3;
+	color: #ffffff;
+	width: 210px;
+	height: 50px;
+	border: 1px solid #338033;
+	font-size: 18px;
+	border-radius: 4px;
+	transition: .6s;
+	overflow: hidden;
+	
+}
+.wrapper .main_content .btn3 button:focus{
+       outline: none;
+}
+
+.wrapper .main_content .btn3 button:hover{
+	background: #4b6584;
+	cursor: pointer;
+}
+
+
+
+
